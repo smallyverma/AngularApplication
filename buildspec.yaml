@@ -9,7 +9,7 @@ phases:
     commands:
       - npm install
   build:
-    command:
+    commands:
       - ng build -c production 
 artifacts:
   base-directory: dist
